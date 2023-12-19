@@ -28,10 +28,9 @@ namespace Server
 
             while (!_isStopped)
             {
-                //Nothing...
             }
             thread.DisableComObjectEagerCleanup();
-            
+
             Console.WriteLine("Bam phim bat ki de ket thuc chuong trinh");
             Console.ReadKey();
         }
